@@ -1,0 +1,31 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Coverage
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local test artifacts (never commit real tender documents)
+tests/fixtures/*.pdf
+!tests/fixtures/.gitkeep
+
+# Assignment working documents (not part of the delivered solution)
+/.claude/
+/tasks/
